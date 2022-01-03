@@ -24,6 +24,8 @@ numpy.random.seed(7)
 
 # load the dataset
 dataframe = read_csv('airline-passengers.csv', usecols=[1], engine='python')
+#change the filename to either 'taxiday.csv'
+#or 'uberday.csv' to see the result
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
@@ -32,7 +34,7 @@ scaler = MinMaxScaler(feature_range=(0, 1))
 dataset = scaler.fit_transform(dataset)
 
 # split into train and test sets
-#here, you can change the test size to make future predictions
+#here, you can change the test size to make future prediction
 train_size = int(len(dataset) * 0.67)
 test_size = len(dataset) - train_size
 train, test = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
