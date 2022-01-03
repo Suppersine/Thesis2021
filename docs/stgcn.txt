@@ -1,0 +1,35 @@
+Epoch 49 Training Time 21.272s
+Time Step 3: MAPE  5.208%,  5.206%; MAE  2.196, 2.231; RMSE  4.010,  4.066.
+Time Step 6: MAPE  7.374%,  7.386%; MAE  2.969, 3.040; RMSE  5.625,  5.749.
+Time Step 9: MAPE  8.947%,  8.927%; MAE  3.514, 3.623; RMSE  6.672,  6.837.
+Epoch 49 Inference Time 20.387s
+<< Saving model to ./output/models/STGCN-9150 ...
+Training model finished!
+WARNING:tensorflow:From /content/STGCN_IJCAI-18/models/tester.py:98: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2021-12-29 10:07:35.254557: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-29 10:07:35.255101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+2021-12-29 10:07:35.255180: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-29 10:07:35.255222: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-29 10:07:35.255264: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-29 10:07:35.255299: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-29 10:07:35.255332: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-29 10:07:35.255366: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-29 10:07:35.255401: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-29 10:07:35.255501: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-29 10:07:35.255999: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-29 10:07:35.256458: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-29 10:07:35.256572: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-29 10:07:35.256625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-29 10:07:35.256710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-29 10:07:35.256926: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-29 10:07:35.257502: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-29 10:07:35.258018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10813 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+>> Loading saved model from ./output/models/STGCN-9150 ...
+Time Step 3: MAPE  5.206%; MAE  2.231; RMSE  4.066.
+Time Step 6: MAPE  7.386%; MAE  3.040; RMSE  5.749.
+Time Step 9: MAPE  8.927%; MAE  3.623; RMSE  6.837.
+Model Test Time 11.599s
+Testing model finished!

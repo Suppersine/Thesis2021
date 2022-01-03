@@ -1,0 +1,7 @@
+
+Table 1: comparison of DL vs ML methods in STDM. Source: [8]
+Table 2: Models and datasets in the comparative experiment – brief table
+Table 3: Models and datasets in the comparative experiment – plus settings
+Table 4: Models and results in the NTPC fire CEHE (both domains)
+Table 5: Models and results in the CEHE: the spatial domain with batch size of 12)
+Table 6: Experiment results of the state-of-the-art models (the ECE episode)

@@ -1,0 +1,9 @@
+
+LITERATURE REVIEW & RELATED WORKS
+Doshi, Basu and Pang [1] developed a CNN model identifing disaster-impacted areas by comparing the change in man-made features extracted from satellite imagery. Using a pre-trained semantic segmentation model from [2] they extracted man-made features, the pre- and post-event images on the “before, during and after” imagery of the event-affected area.
+Amit and Aoki [3] proposed a CNN consists of sequence of layers, the convolution layer (who detects features from a data image), the pooling layer (downsamples the input), and the FC layer (who classifies the features detected earlier). with ReLU as the main activation function of the network. Further explained in the section 2 of [3].
+Iglovikov, Mushinskiy and Osin [4], used an FC-CNN named U-NET, along with an embedded multispectral sensor, which detects frequency reflection by the objects, to detect geo-features in satellite images and yielded satisfying results.
+Bochkovskiy, Wang and Liao [5] incorporated YOLO V.4, and TensorFlow Keras in CNN, to improve performance in image recognition. So it is possible for us to deploy such a CNN model in this thesis. We hope that our deep learning models, written in Python, will work as the goals above.
+In Terms of video and sequence type photos (such as slideshow), however, the use of LSTM-RNN is needed. According to Fang et al. [6], LSTM is excellent at predicting flood because it could process time series data.
+Li et al. [7], view spatiotemporal forecasting as a crucial task for a learning system that operates in a dynamic environment. It can be useful in pathfinding, autonomous vehicles, logistics, city planning etc. They used a Diffusion Convolutional Recurrent Neural Network (DCRNN) model to forecast the road traffic within a specific space and timeframe (The dataset was METR-LA, 2014). Diffusion convolution extracts the traffic features, and the RNN processes the traffic volumes in sequence.
+
